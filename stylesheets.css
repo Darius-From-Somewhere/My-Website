@@ -192,23 +192,32 @@ footer {
 .imagelists {
     display: flex;
     justify-content: center;
+
+    flex-direction:row;
     
 
     width: 100%;
 
-    margin: 0px;
 
-    max-width: 1200px;
+    max-width: 2500px;
 
     height: 100%;
 
     max-height: 400px;
 
 
-    margin: 80px auto 0px;
+    margin: 80px auto 10px;
 
-    align-items: center;
+    border: 10px 10px 100px;
+
+    flex-wrap: wrap;
+
+
     
+}
+
+.imagelists h2 {
+    font-size: large;
 }
 
 .imagelists article {
@@ -216,7 +225,7 @@ footer {
 
     height: 400px;
     
-    margin: auto 10px auto;
+    margin: auto 10px 100px;
 
     flex-wrap: wrap;
    
@@ -258,12 +267,13 @@ footer {
 }
 
 .warning h1 {
-    font-size: 200px;
+    font-size: 100px;
 }
 
 .warning {
 
     margin-top: 60px;
+
     color: red;
 
     text-wrap: wrap;
@@ -273,7 +283,7 @@ footer {
     font-style: italic;
     
 
-    font-size: xx-large;
+    font-size: large;
 }
 
 
